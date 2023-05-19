@@ -1,16 +1,16 @@
 {
   "name": "preact-htm-signals-standalone",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "A single, standalone version of Preact, HTM and Preact Signals. No external dependencies, just one single file.",
   "type": "module",
   "main": "dist/standalone.umd.js",
   "module": "dist/standalone.js",
   "umd:main": "dist/standalone.umd.js",
   "scripts": {
-    "bundle": "microbundle index.js -o ./dist/standalone.js -f es,umd --no-sourcemap --target web"
+    "bundle": "microbundle index.js -o ./dist/preact.js -f es,umd --target web"
   },
-  "repository": "mujahidfa/preact-htm-signals-standalone",
-  "homepage": "https://github.com/mujahidfa/preact-htm-signals-standalone",
+  "repository": "patricklatorre/preact-htm-signals-standalone",
+  "homepage": "https://github.com/patricklatorre/preact-htm-signals-standalone",
   "keywords": [
     "preact signals",
     "signals",
@@ -39,6 +39,6 @@
     "@preact/signals": "^1.1.3",
     "htm": "3.1.1",
     "microbundle": "^0.15.1",
-    "preact": "^10.12.1"
+    "preact": "^10.14.1"
   }
 }
